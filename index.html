@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
     <link rel="stylesheet" href="styles.css">
@@ -21,47 +23,16 @@
                 </div>
                 <span class="header__logo-sub">David David Alban</span>
             </div>
-            <div class="header__main">
-                <ul class="header__links">
-                    <li class="header__link-wrapper">
-                        <a href="#home" class="header__link"> Home </a>
-                    </li>
-                    <li class="header__link-wrapper">
-                        <a href="#about" class="header__link">About </a>
-                    </li>
-                    <li class="header__link-wrapper">
-                        <a href="#projects" class="header__link"> Projects </a>
-                    </li>
-                    <li class="header__link-wrapper">
-                        <a href="#contact" class="header__link"> Contact </a>
-                    </li>
-                </ul>
-                <div class="header__main-ham-menu-cont">
-                    <img src="hamburger-menu-css-simple.jpg" alt="hamburger menu" class="header__main-ham-menu">
-                    <img src="hamburger-menu-css-simple.jpg" alt="hamburger menu close" class="header__main-ham-menu-close d-none">
-                </div>
-            </div>
-        </div>
-        <div class="header__sm-menu">
-            <div class="header__sm-menu-content">
-                <ul class="header__sm-menu-links">
-                    <li class="header__sm-menu-link">
-                        <a href="#home" id="home">  Home </a>
-                    </li>
-
-                    <li class="header__sm-menu-link">
-                        <a href="#about" id="about"> About </a>
-                    </li>
-
-                    <li class="header__sm-menu-link">
-                        <a href="#projects" id="project"> Projects </a>
-                    </li>
-
-                    <li class="header__sm-menu-link">
-                        <a href="#contact" id="contact"> Contact </a>
-                    </li>
-                </ul>
-            </div>
+            <ul class="menu">
+                <li><a class="header__link" href="#">Home</a></li>
+                <li><a class="header__link" href="#">Profile</a></li>
+                <li><a class="header__link" href="#">About</a></li>
+                <li><a class="header__link" href="#">Contact</a></li>
+            </ul>
+            <button class="hamburger">
+                <i class="menuIcon material-icons">menu</i>
+                <i class="closeIcon material-icons">close</i>
+              </button>
         </div>
     </header>
     <section class="home-hero">
