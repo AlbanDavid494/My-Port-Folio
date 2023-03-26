@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <script src="index.js"></script>
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
@@ -15,26 +15,35 @@
 
 <body>
 
-    <header class="header">
-        <div class="header__content">
-            <div class="header__logo-container">
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="" id="navbar__logo">
                 <div class="header__logo-img-cont">
                     <img src="Snapchat-2096001355 (3).jpg" alt="David Logo Image" class="header__logo-img">
                 </div>
                 <span class="header__logo-sub">David David Alban</span>
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-            <ul class="menu">
-                <li><a class="header__link" href="#">Home</a></li>
-                <li><a class="header__link" href="#">Profile</a></li>
-                <li><a class="header__link" href="#">About</a></li>
-                <li><a class="header__link" href="#">Contact</a></li>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="" class="navbar__links">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="" class="navbar__links">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="" class="navbar__links">Contact</a>
+                </li>
             </ul>
-            <button class="hamburger">
-                <i class="menuIcon material-icons">menu</i>
-                <i class="closeIcon material-icons">close</i>
-              </button>
         </div>
-    </header>
+    </nav>
     <section class="home-hero">
         <div class="home-hero__content">
             <h1 class="heading-primary">Hey, I'm David David Alban</h1>
@@ -137,6 +146,7 @@
             </div>
         </div>
     </section>
+    <script src="index.js"></script>
 
 </body>
 
